@@ -1,3 +1,6 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "powermode.enabled": false,
+    "powermode.presets": "clippy",
+    "powermode.explosions.enabled": false
 }
