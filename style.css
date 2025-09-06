@@ -14,15 +14,18 @@ body {
 .material-symbols-outlined {
     padding: 10px;
 }
+
 .hover:hover {
     background: #f1f3f4;
     color: black;
     border-radius: 50%;
     cursor: pointer;
 }
+
+
 .tooltip {
     position: relative;
-    
+
 }
 .tooltip-text {
     position: absolute;
@@ -141,6 +144,7 @@ input:focus {
     font-size: 0.9rem;
     margin-left: 20px;
     width: 250px;
+    font-weight: 500;
 }
 .sidebar-item .material-symbols-outlined {
     margin-left: 18px;
@@ -286,12 +290,15 @@ input:focus {
 
 .note .check-circle {
     position: absolute;
-    /* left: -16px;
-    top: -18px; */
-    left: -10px;
-    top: -10px;
+    left: -16px;
+    top: -18px;
+    /* left: -10px;
+    top: -10px; */
     visibility: hidden;
 }
+
+
+
 
 /* MODAL CONTENT */
 .modal {

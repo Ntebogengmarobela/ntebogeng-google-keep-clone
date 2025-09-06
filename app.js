@@ -1,6 +1,5 @@
 alert("JS IS WORKING!")
 
-
 class Note {
     constructor(id, title, text) {
         this.id = id,
@@ -11,8 +10,6 @@ class Note {
 
 class App {
     constructor() {
-        // localStorage.setItem('test', JSON.stringify(['123']));
-        // console.log(JSON.parse(localStorage.getItem('test')));
         this.notes = JSON.parse(localStorage.getItem('notes')) || [];
         console.log(this.notes)
         this.selectedNoteId = "";
@@ -86,7 +83,6 @@ class App {
             this.addNote({title, text});
             this.closeActiveForm();
         }
-
     }
 
     openActiveForm() {
@@ -235,13 +231,7 @@ class App {
         `
         ).join("");
     }
-    // displayNotes(){
-    //     this.notes.map(note => console.log(`
-    //         ID: ${note.id}
-    //         Title: ${note.title}
-    //         Text: ${note.text}
-    //         `))
-    // }
+
 }
 
 const app = new App();
